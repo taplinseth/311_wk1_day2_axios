@@ -11,7 +11,6 @@ const discoverMovie = () => {
   const url = `https://api.themoviedb.org/3/discover/movie?api_key=${api_key}`
   return axios(url)
 }
-discoverMovie();
 
 const getMovieById = (id) => {
   const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${api_key}`
